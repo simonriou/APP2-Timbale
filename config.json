@@ -1,0 +1,33 @@
+{
+	"geometry": {
+		"radius": 0.2,
+		"volume": 0.05
+	},
+    "model": {
+        "damping": 1,
+		"coupling": 1,
+		"radiation": 1
+    },
+	"material": {
+		"tension": 3500,
+        "surface_mass": 0.4,
+        "beta": 5.0,
+		"eta": 0.000001,
+		"rho_air": 1.204,
+		"c_air": 343
+	},
+	"synthesis": {
+		"duration": 2.0,
+		"sampling_frequency": 44100,
+		"modes": 16
+	},
+	"playing": {
+		"r_0": 0.1,
+        "theta_0": 0.0,
+		"exc_force": 1.0,
+		"lst_membrane": 0,
+		"r_lst": 0.5,
+        "theta_lst": 0.0,
+		"phi_lst": 0.785
+	}
+}
